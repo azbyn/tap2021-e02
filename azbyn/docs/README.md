@@ -1,7 +1,8 @@
 # SOLID Principles
 
 - S: Single Responsibility Principle\
- Every module, every class, and every function should only have one thing to do.
+ Every module, every class, and every function should only have one thing to do.\
+ Or, “Do one thing and do it well”.
 
 - O: Open-closed principle\
  Entities should be opened for extension and closed for modification.\
