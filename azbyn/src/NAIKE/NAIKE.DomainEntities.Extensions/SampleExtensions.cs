@@ -15,7 +15,11 @@ namespace NAIKE.DomainEntities.Extensions
             if (dnaSequence == null) return false;
             if (dnaSequence.Length != ValidDnaSize) return false;
 
-            return dnaSequence.Any(c => "ACGT".Contains(char.ToUpper(c)));
+            return dnaSequence.All(c => c.IsValidDnaChar());
+        }
+        public static bool IsValidDnaChar(this char c)
+        {
+            return "ACGT".Contains(char.ToUpper(c));
         }
     }
 }
