@@ -3,8 +3,6 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31112.23
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NAIKE", "NAIKE\NAIKE.csproj", "{8A03580A-4C1F-41AD-9853-6328B6C8B793}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NAIKE.Test", "NAIKE.Test\NAIKE.Test.csproj", "{3771DCD5-584D-4018-BD67-277143335524}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NAIKE.EntityFramework", "NAIKE.EntityFramework\NAIKE.EntityFramework.csproj", "{D8B95EFA-2C82-4F56-9CED-5083A88BC7AE}"
